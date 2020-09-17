@@ -1,11 +1,12 @@
 import React from 'react';
-import Anime from './components/anime';
+import Digimon from './components/digimon';
 
-function App() {
+
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <Anime/>
+        <Digimon/>
       </header>
     </div>
   );
